@@ -1,3 +1,5 @@
+# Summary of Assignment 2 (still updating)
+## Part 1 Official Homework Instructions
 ---
 layout: page
 mathjax: true
