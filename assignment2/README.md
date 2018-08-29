@@ -18,9 +18,6 @@ are as follows:
   get practice with training these models on data
 - gain experience with a major deep learning framework, such as **TensorFlow** or **PyTorch**.
 
-## Setup
-Get the code as a zip file [here](http://cs231n.github.io/assignments/2018/spring1718_assignment2.zip).
-
 You can follow the setup instructions [here](http://cs231n.github.io/setup-instructions/).
 
 **NOTE: At this time, the PyTorch and TensorFlow notebooks for Question 5 are not finalized. We will update this page with a zip file containing the two notebooks and installation instructions as soon as they are completed.**
