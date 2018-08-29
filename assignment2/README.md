@@ -1,14 +1,13 @@
 # Summary of Assignment 2 (still updating)
 ## Part 1 Official Homework Instructions
----
-layout: page
-mathjax: true
-permalink: /assignments2018/assignment2/
----
+|layout|mathjax|permalink|
+| - | - |
+|page|true|/assignments2018/assignment2/|
 
 In this assignment you will practice writing backpropagation code, and training
 Neural Networks and Convolutional Neural Networks. The goals of this assignment
 are as follows:
+
 
 - understand **Neural Networks** and how they are arranged in layered
   architectures
