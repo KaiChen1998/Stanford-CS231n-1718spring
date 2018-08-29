@@ -62,6 +62,7 @@ Open up either `PyTorch.ipynb` or `TensorFlow.ipynb`. There, you will learn how 
 - Layer normalization的实现
 
 ### CNN
+- 简单三层CNN达到了47%的准确率
 - CNN模型参数：输入尺寸、卷积核数量和尺寸、分类数、reg、weight初始化
 - 卷积层确实可以提取某些特征从而形成模板（实验中提取了灰度模板和边缘模板）
 - CNN（conv-pooling）层前向后向实现
