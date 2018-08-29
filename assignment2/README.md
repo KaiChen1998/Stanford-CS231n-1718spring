@@ -1,7 +1,7 @@
 # Summary of Assignment 2 (still updating)
 ## Part 1 Official Homework Instructions
 |layout|mathjax|permalink|
-| - | - |
+| - | - | - |
 |page|true|/assignments2018/assignment2/|
 
 In this assignment you will practice writing backpropagation code, and training
