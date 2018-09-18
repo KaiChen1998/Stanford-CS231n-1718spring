@@ -1,4 +1,4 @@
-# CS231n
+# Convolutional Neural Networks for Visual Recognition(CS231n) @ Stanford
 ## This is my CS231n homework. It's actually a good exercise!
 - Assignment 1: Mostly linear classifier, including knn, svm, softmax, two layer neural network and image feature, which gain a 50% - 55% accuracy on CIFAR10
 
