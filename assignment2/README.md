@@ -56,7 +56,7 @@ Open up either `PyTorch.ipynb` or `TensorFlow.ipynb`. There, you will learn how 
 - 使用inverted dropout，每次dropout之后将权重值除以p，将计算量放在训练过程
 - 确实能够延迟过拟合，提高局部验证集准确率，而且会提高收敛速率（实验效果不明显）
 
-## Batch Normalization
+### Batch Normalization
 - BN前向后向以及与weight初始化以及batch size的关系
 - BN会使得模型收敛更快，减少对于weight初始化的依赖
 - Layer normalization的实现
@@ -69,5 +69,9 @@ Open up either `PyTorch.ipynb` or `TensorFlow.ipynb`. There, you will learn how 
 - Spatial Batch Normalization的实现：转化为普通BN，对深度维度上每一个channel取均值和方差
 - Spatial Group Normalization的实现
 
-### Pytorch & Tensorlflow (still updating)
+### Tensorlflow
+- Three parts: Barebore tensorflow & tf.layers & tf.layers.sequential
+- Train cifar-10 using myself model and get an accuracy of 73.2% (imitating VGG) training for 3 hours
+
+### Pytorch (still updating)
 
