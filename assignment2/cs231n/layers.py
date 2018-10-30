@@ -214,6 +214,7 @@ def batchnorm_forward(x, gamma, beta, bn_param):
         # Store the result in the out variable.                               #
         #######################################################################
         
+        # test的时候用的是 running_mean 和running_var
         out = gamma * ((x - running_mean) / np.sqrt(running_var + eps)) + beta
 
         #######################################################################

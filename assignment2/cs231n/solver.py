@@ -100,10 +100,10 @@ class Solver(object):
         Optional arguments:
         - update_rule: A string giving the name of an update rule in optim.py.
           Default is 'sgd'.
-        - optim_config: A dictionary containing hyperparameters that will be
+        - optim_config: uA dictionary containing hyperparameters that will be
           passed to the chosen update rule. Each update rule requires different
           hyperparameters (see optim.py) but all update rules require a
-          'learning_rate' parameter so that should always be present.
+          'learning_rate' parameter so that shold always be present.
         
         - lr_decay: A scalar for learning rate decay; after each epoch the
           learning rate is multiplied by this value.
@@ -188,7 +188,7 @@ class Solver(object):
         X_batch = self.X_train[batch_mask]
         y_batch = self.y_train[batch_mask]
 
-        # Compute loss and gradient
+        # Compute loss and gradient， 使用小batch来计算loss值，因为反正loss值最后都会取平均
         loss, grads = self.model.loss(X_batch, y_batch)
         self.loss_history.append(loss)
 

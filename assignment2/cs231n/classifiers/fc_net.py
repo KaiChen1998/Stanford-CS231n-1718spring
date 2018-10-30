@@ -280,7 +280,7 @@ class FullyConnectedNet(object):
         cache_drop = {}
         Input = X
         for i in range(self.num_layers - 1):
-            # bn层
+            # affine-bn-relu-dropout
             if self.normalization == "batchnorm":
                 out, cache[i + 1] = affine_bn_relu_forward(Input, self.params["W" + str(i+1)], self.params["b" + str(i+1)], self.params["gamma" + str(i+1)], self.params["beta" + str(i+1)], self.bn_params[i])
             

@@ -99,6 +99,7 @@ class ThreeLayerConvNet(object):
         # Remember you can use the functions defined in cs231n/fast_layers.py and  #
         # cs231n/layer_utils.py in your implementation (already imported).         #
         ############################################################################
+        # conv-pooling-affine-relu-affine
         out, conv_cache = conv_relu_pool_forward(X, W1, b1, conv_param, pool_param)
         out, aff_cache_1 = affine_relu_forward(out, W2, b2)
         scores, aff_cache_2 = affine_forward(out, W3, b3)
