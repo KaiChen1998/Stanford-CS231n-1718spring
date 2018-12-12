@@ -1,5 +1,6 @@
 # Summary of Assianment 3
-More focus on real computer vision application of Neural Network including:
+After learning for basic CNN knowledge, in this assignment more focus is on real computer vision application.
+
 ## Image Captioning using vanilla and LSTM (pre-processed Microsoft COCO)
 ## CNN Network Visualization (Imagenet)
 ## GANs
