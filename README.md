@@ -5,7 +5,7 @@
 
 2. Assignment 2: Advanced neural network tricks including FC layer of any depth, dropout, Batch Normalization, CNN, Pytorch/Tensorflow
 - Using self-designed CNN architecture and get an accuracy of 73% on cifar-10 temporarily
-- (Tips: If you'd like to get more familiar with bachpropagation, I highly recommadation you to try BN backprop. It's exciting!) 
+- (Tips: If you'd like to get more familiar with bachpropagation, I highly recommadation you to try BN backprop. It's exciting!:smile:) 
 
 3. Assignment 3: More focus on real computer vision application of Neural Network including:
 - Image Captioning using vanilla and LSTM (pre-processed Microsoft COCO)
