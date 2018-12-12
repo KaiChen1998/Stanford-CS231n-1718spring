@@ -7,19 +7,19 @@ After learning for basic CNN knowledge, in this assignment more focus is on real
 - Basic idea: we have an image feature vector and one caption of this image in the form of 2D matrix as input. 
 <br>Image feature to `h0`, index captioning to `Vector captioning` and to use both to feed in RNN and compute loss.
 
-## CNN Network Visualization (Based on Imagenet)
+## Q2: CNN Network Visualization (Based on Imagenet)
 - Basic idea is the same: use pre-trained Squeezenet and do geadient descent on image pixels instead of parameters.
 - Saliency Maps: visualize the gradient of correct class score on every image pixel
 - Fooling Images: change the image class prediction without changing image pixel value a lot
 - Class Visualization: generate an image which maximize certain class score.
 
-## GANs
+## Q3: GANs
 - Actually you can see this as an easy binary classification problem
 - Two network: Generator & Discriminator
 - Two loss: G_loss & D_loss to determine two network's capacity
 - For network architecture and loss function, as many as you want
 
-## Style Transfer (Squeezenet) 😂 Interesting but easy vision model
+## Q4: Style Transfer (Squeezenet) 😂 Interesting but easy vision model
 - Content loss: generate an image whose content should be similar to given content image's content using feature vector of Squeezenet
 - Style loss: generate an image whose style should be similar to given style image's style using gram matrix
 - tv_loss: regularization to generate a more smooth image
