@@ -12,3 +12,7 @@
 - CNN Network Visualization (Imagenet)
 - GANs
 - Style Transfer (Squeezenet) :joy: Interesting but easy vision model 
+
+There is not a too good word to describe this assignment. From basic deep learning knowledge to fundamental Vision models (classfication -> detection -> semantic meaning). It's a very good **propaedeutic** module which not only for your Vision knowledge but also for you python and tensorflow understanding.
+
+Thanks for all teaching staffs!
