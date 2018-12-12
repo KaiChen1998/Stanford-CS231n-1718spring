@@ -72,6 +72,4 @@ Open up either `PyTorch.ipynb` or `TensorFlow.ipynb`. There, you will learn how 
 ### Tensorlflow
 - Three parts: Barebore tensorflow & tf.layers & tf.layers.sequential
 - Train cifar-10 using myself model and get an accuracy of 73.2% (imitating VGG) training for 3 hours
-
-### Pytorch (still updating)
-
+- Still trying Resnet to get a better performance
