@@ -7,7 +7,7 @@
 <br>(Tips: If you'd like to get more familiar with bachpropagation, I highly recommadation you to try BN backprop. It's exciting!) 
 
 - Assignment 3: More focus on real computer vision application of Neural Network including:
-1. Image Captioning using vanilla and LSTM (pre-processed Microsoft COCO)
-2. CNN Network Visualization (Imagenet)
-3. GANs
-4. Style Transfer (Squeezenet) :joy: Interesting but easy vision model 
+<br>Image Captioning using vanilla and LSTM (pre-processed Microsoft COCO)
+<br>CNN Network Visualization (Imagenet)
+<br>GANs
+<br>Style Transfer (Squeezenet) :joy: Interesting but easy vision model 
